@@ -1,13 +1,9 @@
 *.zip
 */__pycache__
-*/.pytest_cache
+**/.pytest_cache
 *.pdf
 /books
-/node_modules
-/lib
-/lib64
+*/node_modules
 package-lock.json
-pyvenv.cfg
-/share
-/bin
 jest.config.js
+**/venv
