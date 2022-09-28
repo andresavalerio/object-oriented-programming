@@ -1,5 +1,3 @@
-# Created by Andresa Valério
-# RA 149451
 import pytest
 from invalid_square import InvalidSquareError
 
@@ -28,6 +26,6 @@ def test_invalid_square():
     ir = Point(4, 0)
     sr = Point(4, 4)
 
-    with pytest.raises(Exception):
+    with pytest.raises(InvalidSquareError):
        Square(il, ir, sl, sr)
  
