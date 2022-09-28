@@ -1,4 +1,3 @@
-# Created by Andresa Valério
 from invalid_square import InvalidSquareError
 
 class Square():
@@ -17,8 +16,8 @@ class Square():
         inferior_side = self.sl.distance(self.sr)
         superior_side = self.il.distance(self.ir)
 
-        if not (left_side == right_side and inferior_side == superior_side and left_side == inferior_side):
-            raise Exception
+        if left_side != right_side and inferior_side != superior_side and left_side != inferior_side:
+            raise InvalidSquareError
 
     def area(self):
         return self.il.distance(self.sl) ** 2
