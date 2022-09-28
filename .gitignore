@@ -4,6 +4,4 @@
 *.pdf
 /books
 */node_modules
-package-lock.json
-jest.config.js
 **/venv
