@@ -5,3 +5,4 @@
 /books
 */node_modules
 **/venv
+*.org
