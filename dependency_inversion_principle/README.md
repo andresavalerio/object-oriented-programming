@@ -3,7 +3,7 @@
 
 _One image says more that thousand words. Thank you [DevIQ](https://deviq.com/principles/dependency-inversion-principle)  for the image_
 
-**Dependency Inversion Principle** is of the five SOLID principles. **SOLID** was created by [Uncle Bob](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) (author of Clean Code), but only became an acronym with [Michael Feathers.](https://michaelfeathers.silvrback.com/)
+**Dependency Inversion Principle** is one of the five SOLID principles. **SOLID** was created by [Uncle Bob](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) (author of Clean Code), but only became an acronym with [Michael Feathers.](https://michaelfeathers.silvrback.com/)
 
 > Depend on abstractions, not on concretions.
 
@@ -67,7 +67,7 @@ def cook(bakeable: Bakeable):
     bakeable.bake()
 ```
 
-See now that the `cook` function doesn't need to know which bakeble its being cooked to run. **`Bakeable` is an interface that connects the `cook `function with all possible food that may use it.**
+See now that the `cook` function doesn't need to know which bakeble its being cooked to run. **`Bakeable` is an interface that connects the `cook` function with all possible food that may use it.**
 
 > :brain: **Food for your thought:** Python has the [duck-typing principle](https://docs.python.org/3/glossary.html#term-duck-typing) (“If it looks like a duck and quacks like a duck, it must be a duck.”), which means that _you'll not necessarily need the ABC library to create a system that works._
 
