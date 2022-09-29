@@ -67,7 +67,7 @@ def cook(bakeable: Bakeable):
     bakeable.bake()
 ```
 
-See now that the `cook` function doesn't need to know with bakeble its being cooked to run. **`Bakeable` is an interface that connects the `cook `function with all possible food that may use it.**
+See now that the `cook` function doesn't need to know which bakeble its being cooked to run. **`Bakeable` is an interface that connects the `cook `function with all possible food that may use it.**
 
 > :brain: **Food for your thought:** Python has the [duck-typing principle](https://docs.python.org/3/glossary.html#term-duck-typing) (“If it looks like a duck and quacks like a duck, it must be a duck.”), which means that _you'll not necessarily need the ABC library to create a system that works._
 
