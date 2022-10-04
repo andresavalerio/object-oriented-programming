@@ -1,6 +1,3 @@
-# Andresa Lopes Valério
-# RA 149451
-
 from data_structures import Stack, Queue
 
 def test_stack():
